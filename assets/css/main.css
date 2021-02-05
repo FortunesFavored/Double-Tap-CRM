@@ -11,10 +11,10 @@
 
 .navbar-sub-left{
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     min-width: 50%;
     max-width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 }
 
@@ -23,6 +23,7 @@
     display: flex;
     flex-flow: row wrap;
     align-content: center;
+    float: right;
 }
 
 .nodec{
@@ -35,22 +36,22 @@
     color: blue;
     display: flex;
     width: 75px;
-    margin-left: 20px;
+    margin-left: 10px;
     border-radius: 10%;
     border: 2px solid blue;
-    padding: 6px;
+    padding: 1px;
     justify-content: center;
     align-content: center;
 }
 
 .try-it-free-button{
+    background-color: blue;
+    color: white;
     display: flex;
     width: 75px;
-    margin-left: 20px;
-    color: white;
+    margin-left: 0px;
     border-radius: 10%;
-    background-color: blue;
-    padding: 1px;
+    padding: 3px;
     justify-content: center;
     align-content: center;
 }
