@@ -1,0 +1,181 @@
+/* Shoha is working on this page*/
+/* .row::after {
+    content: "";
+    clear: both;
+    display: grid;
+  } */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.grid-container-sho {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 30% 70%;
+    background-color: white;
+    padding: 1vh;
+    height: 95vh;
+    min-width: 420px;
+}
+@media only screen and (max-width:1240px) {
+    .grid-container-sho {
+        display: grid;
+        margin: 0;
+        grid-template-columns: 50% 50%;
+        background-color: white;
+        padding: 1vh;
+        height: 95vh;
+        overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width:800px) {
+    .grid-container-sho {
+        display: grid;
+        margin: 0;
+        grid-template-columns: 65% 35%;
+        background-color: white;
+        padding: 1vh;
+        height: 95vh;
+        overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width:675px) {
+    .grid-container-sho {
+        display: grid;
+        margin: 0;
+        grid-template-columns: 100%;
+        background-color: white;
+        padding: 1vh;
+        height: 95vh;
+        overflow: hidden;
+    }
+}
+
+input[type=username] {
+    background-image: url(/assets/image/CRM-SignUp/Page-1.png);
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    
+}
+input[type=email] {
+    background-image: url(/assets/image/CRM-SignUp/emaillogo.png);
+    background-size: 20px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+}
+input[type=password] {
+    background-image: url(/assets/image/CRM-SignUp/lock-logo.png);
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+}
+.form-control {
+    display: block;
+    width: 80%;
+    font-size: 1rem;
+    padding: 1rem .75rem;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 3rem;
+}
+.four-by-four-sho {
+    display: grid;
+    border: 1px solid #eee;
+    padding: 10%;
+    margin: 0;
+    align-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:  
+        '.          sign-up sign-up .'
+        'form1      form1   form1   form1'
+        'form2      form2   form2   form2'
+        'form3      form3   form3   form3'
+        '.          btn     btn     .'
+        'txt          txt     txt     txt'
+        'fb-btn     twt-btn ggl-btn lnkin-btn'
+}
+.sign-up-sho{grid-area: sign-up;}
+.form1{grid-area: form1;}
+.form2{grid-area: form2;}
+.form3{grid-area: form3;}
+.btn-sho{grid-area: btn;}
+.txt-sho{grid-area: txt;}
+.fb-btn{grid-area: fb-btn;}
+.twt-btn{grid-area: twt-btn;}
+.ggl-btn{grid-area: ggl-btn;}
+.lnkin-btn{grid-area: lnkin-btn;}
+
+.grid-item-sho {
+    display: flex;
+    background-color: white;
+    padding: 1vh;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+}
+.button-sho {
+    background-color: rgb(2, 125, 248); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 0px 2px;
+    cursor: pointer;
+}
+.button-sho:hover {
+    background-color: dodgerblue;
+    box-shadow: 1px 1px 10px -5px rgb(5, 5, 5);
+}
+[class*="col-"] {
+    width: 100%;
+  }
+img {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    object-fit: contain;
+}
+.border {
+    border: 1px solid black
+}
+
+ 
+  .form {
+      height: 100%;
+  }
+  .photo {
+      height: 100%;
+  }
+  .bubble {
+      display: flex;
+      border-radius: 50%;
+      background-color: #eee;
+      border: 1px solid grey;
+      width:60%;
+      height: 50%;
+      object-fit: fill;   
+  }
+  .bubble:hover {
+      background-color: rgb(159, 216, 233);
+      box-shadow: 1px 1px 10px -5px black;
+  }
+  .social {
+      padding: 5%;
+      height: 50%;
+      object-fit: scale-down;
+  }
+  .bubble > img {
+      max-height: 33%;
+  }
