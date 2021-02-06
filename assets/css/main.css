@@ -224,101 +224,56 @@
     justify-content: center;
     align-content: center;
 }
-comment out
-.footer{
-    width: 100vh;
-    display: block;
-    overflow: hidden;
-    padding: 70px 0;
-    box-sizing: border-box;
+/* Footer CSS Driver Code */
+.f-container{
+    display: flex;
+    justify-content: center;
     background-color: blue;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.inner-footer{
-    display: block;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
+.inner-fc{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
 }
 
-.inner-footer .foot-text{
-    width: calc(22% - 20px);
-    margin-right: 10px;
-    float: left;
-    height: 100%;
-}
-
-.inner-footer .foot-text h1{
-    font-family: 'arial';
-    font-size: 30px;
-    color: white;
-    display: block;
-    width: 100%;
-}
-
-.inner-footer .foot-text p{
-    font-family: 'arial';
-    font-size: 10px;
-    font-weight: 200px;
-    color: white;
-    display: block;
-    width: 100%;
-    padding-bottom: 5px;
-}
-
-.inner-footer .foot-text .button{
-    font-family: 'arial';
-    font-size: 30px;
-    color: white;
-    display: block;
-    width: 100%;
-}
-
-.inner-footer .foot-text .button2{
-    font-family: 'arial';
-    font-size: 30px;
-    color: white;
-    display: block;
-    width: 100%;
-}
-
-.h1{
+.inner-fc > h1{
     text-align: center;
 }
 
-.p{
+.inner-fc > p{
     text-align: center;
 }
 
-.block {
-    display: block;
-    width: 100%;
-    border: none;
+.inner-fc > div{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.get-started{
     background-color: greenyellow;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  .block:hover {
-    background-color: green;
-    color: black;
-  }
+    border: 5px solid greenyellow;
+    border-radius: 5px;
+}
 
-  .block2 {
-    display: block;
-    width: 100%;
-    border: none;
-    background-color: #4CAF50;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: center;
-  }
+.chat-with-us{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+}
 
-  .block2:hover {
-    background-color: green;
-    color: black;
-  }
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.dot{
+    background-color: white;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
