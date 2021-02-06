@@ -1,0 +1,102 @@
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-row: auto;
+    grid-template-areas: 
+        "firstC midC lastC";
+    max-height: 100%;
+    
+}
+.firstC{
+    grid-area: firstC;
+}
+.midC{
+    grid-area: midC;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "pic txt";
+    max-width: 100%;
+    max-height: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: blue;
+    margin: 5%;
+}
+.pic {
+    grid-area: pic;
+    max-width: 50vh;
+    max-height: 40vh;
+    background-color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.txt{
+    grid-area: txt;
+    color:white;
+    text-align: left;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-right: 30%;
+}
+
+.pic img{
+    width:100%;
+    height:auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+    margin-top:10%
+}
+.lastC{
+    grid-area: lastC;
+}
+.button {
+    background-color:blue; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 2% 15%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: blue; 
+    color: white; 
+    border: 3px solid white;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: blue;
+  }
+  .button2:hover a{
+    color: blue;
+  }
+  .button2:hover i{
+    color: blue;
+  }
+  .button a{
+      color: white;
+      text-decoration: none;
+  }
+  .arrow {
+    /* align-content: flex-end; */
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+  }  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
