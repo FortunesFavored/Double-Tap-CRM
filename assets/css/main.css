@@ -166,3 +166,60 @@
     width: 3px;
 }
 
+.navbar-main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.logo{
+    width: 213px;
+}
+
+
+.navbar-sub-left{
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 50%;
+    max-width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.navbar-sub-right{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    float: right;
+}
+
+.nodec{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.sign-in-button{
+    color: blue;
+    display: flex;
+    width: 75px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border: 2px solid blue;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.try-it-free-button{
+    background-color: blue;
+    color: white;
+    display: flex;
+    width: 75px;
+    margin-left: 0px;
+    border-radius: 10%;
+    padding: 3px;
+    justify-content: center;
+    align-content: center;
+}
