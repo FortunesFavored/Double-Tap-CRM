@@ -1,0 +1,307 @@
+/* "-hs" suffix is for header section ("Focus on your business" area) */
+
+@media (min-width: 910px) {
+    .container1-hs {
+      display: grid;
+      grid-template-columns: auto 450px 400px auto;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "margin header image margin";
+    }
+    .header-hs {
+        margin-top: 60px;
+    }
+    .image-hs > img {
+        margin-top: 100px;
+        max-width: 400px;
+        min-width: 400px;
+    }
+    .details-hs {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 909px) {
+    .container1-hs {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "margin header image margin";
+    }
+    .header-hs {
+        margin-top: 60px;
+        max-width: 400px;
+    }
+    .image-hs > img {
+        margin-top: 60px;
+        max-width: 400px;
+        min-width: 400px;
+    }
+    .details-hs {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 750px) {
+    .container1-hs {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "margin header image margin";
+    }
+    .header-hs {
+        margin-top: 60px;
+        max-width: 325px;
+    }
+    .image-hs > img {
+        margin-top: 60px;
+        max-width: 350px;
+        min-width: 350px;
+    }
+    .details-hs {
+        margin-top: 17px;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media (max-width: 570px) {
+    .container1-hs {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "margin header image margin";
+    }
+    .header-hs {
+        margin-top: 60px;
+        max-width: 290px;
+    }
+    .image-hs > img {
+        margin-top: 60px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+    .details-hs {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 17px;
+        max-width: 290px;
+    }
+}
+.margin-hs, .header-hs, .image-hs, .details-hs {
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    width: auto;
+    border: 1px solid ghostwhite;
+}
+
+.header-big-hs {
+    font-weight: bold; 
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* placeholder font*/
+}
+.header-med-hs {
+    font-size: 25px;
+    line-height: 1.5; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* placeholder font*/
+}
+.header-main1-hs {
+    color: grey;
+    font-weight: bold; 
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* placeholder font*/
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.button1-hs{
+    background-color: rgba(9, 85, 250, 0.945); 
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    padding: 14px 10px 14px 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+.button2-hs{
+    background-color: transparent; 
+    border: 2px solid rgba(9, 85, 250, 0.651);
+    border-radius: 10px;
+    color: rgba(9, 85, 250, 0.945);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-bottom: 15px;
+    margin-top: 6px;
+    padding: 12px 20px 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.header-main2-hs {
+    color: grey;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* placeholder font*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.details-hs > img {
+    height: 13px;
+    width: auto;
+}
+.separator-oval {
+    background-color: rgba(9, 85, 250, 0.945); 
+    border: solid 1px rgba(9, 85, 250, 0.945);
+    border-radius: 65%;
+    height: 5px;
+    margin-top: 3.5px;
+    width: 3px;
+}
+
+.navbar-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    width: 213px;
+}
+
+
+.navbar-sub-left{
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 50%;
+    max-width: 100%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.navbar-sub-right{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    float: right;
+}
+
+.nodec{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.sign-in-button{
+    color: blue;
+    display: flex;
+    width: 75px;
+    margin-left: 10px;
+    border-radius: 10%;
+    border: 2px solid blue;
+    padding: 1px;
+    justify-content: center;
+    align-content: center;
+}
+
+.try-it-free-button{
+    background-color: blue;
+    color: white;
+    display: flex;
+    width: 75px;
+    margin-left: 0px;
+    border-radius: 10%;
+    padding: 3px;
+    justify-content: center;
+    align-content: center;
+}
+
+.four-container{
+    display: flex;
+    justify-content: center;
+}
+
+    .if-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;   
+    }
+
+        .row-12fit{
+            text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+        .row-34fit{
+            text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+
+/* Footer CSS Driver Code */
+.f-container{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.inner-fc{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 250px;
+    margin-top: 20px;
+}
+
+.inner-fc > h1{
+    text-align: center;
+}
+
+.inner-fc > p{
+    text-align: center;
+}
+
+.inner-fc > div{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.get-started{
+    background-color: greenyellow;
+    border: 5px solid greenyellow;
+    border-radius: 5px;
+}
+
+.chat-with-us{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.dot{
+    background-color: white;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
