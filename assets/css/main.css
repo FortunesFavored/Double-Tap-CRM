@@ -224,6 +224,32 @@
     justify-content: center;
     align-content: center;
 }
+
+.four-container{
+    display: flex;
+    justify-content: center;
+}
+
+    .if-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;   
+    }
+
+        .row-12fit{
+            text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+        .row-34fit{
+            text-align: center;
+            justify-content: space-evenly;
+            display: flex;
+        }
+
+
 /* Footer CSS Driver Code */
 .f-container{
     display: flex;
@@ -238,6 +264,8 @@
     flex-flow: column;
     justify-content: center;
     align-content: center;
+    margin-bottom: 250px;
+    margin-top: 20px;
 }
 
 .inner-fc > h1{
