@@ -1,0 +1,96 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 900px;
+}
+
+.grid-item1 {
+    background-color: blue;
+    border-radius: 0% 0% 120% 00%;
+}
+
+div.text1 {
+        font-size: medium;
+        color: white;
+        padding-top: 5%;
+        padding-left:nond;
+        border-color: green;
+}
+h2 {
+    text-align: center;
+}
+
+img{
+    inline-size: 50%;
+    padding-left: 25%;
+    padding-top:10%;
+}
+.sign-in-form{
+    width: 50%;
+    background: #fff;
+    padding:20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-color: none;
+}
+.sign-in-form h1{
+    color:black;
+    margin-bottom: 30px;
+    
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+    border: 1px solid #999;
+    outline: none;
+    text-align: center;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+    }
+
+button {
+    color: white;
+    width: 30%;
+    background-color:blue ;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 15px 100px;
+    outline: none;
+    cursor: pointer;
+    border:none;
+}
+
+
+button:hover {
+    color: blue;
+    background-color: white;
+}
+
+.grid-container2 {
+    height: 900px;
+    padding-top: 100px;
+    border:none;
+}
+.sign-up-btn {
+    border-color: white;
+    width: 20%;
+    margin-left:40%;
+    border: 2px solid white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid #cdd0cb;
+}
