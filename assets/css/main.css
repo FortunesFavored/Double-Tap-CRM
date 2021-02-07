@@ -230,24 +230,25 @@
     justify-content: center;
 }
 
-    .if-container{
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
-        align-content: center;   
-    }
+.if-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;  
+}
 
-        .row-12fit{
-            text-align: center;
-            justify-content: space-evenly;
-            display: flex;
-        }
+.row-12fit{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
 
-        .row-34fit{
-            text-align: center;
-            justify-content: space-evenly;
-            display: flex;
-        }
+.row-34fit{
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+}
 
 
 /* Footer CSS Driver Code */
@@ -255,25 +256,27 @@
     display: flex;
     justify-content: center;
     background-color: blue;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .inner-fc{
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 250px;
     margin-top: 20px;
+    margin-bottom: 100px;
+    max-width: 80%;
+    min-width: 60%;
 }
 
 .inner-fc > h1{
+    margin-bottom: 0px;
     text-align: center;
+    color: white;
 }
 
 .inner-fc > p{
     text-align: center;
+    color: white;
 }
 
 .inner-fc > div{
@@ -283,25 +286,48 @@
 }
 
 .get-started{
-    background-color: greenyellow;
-    border: 5px solid greenyellow;
+    background-color: rgb(39, 192, 18);
+    border: 5px solid rgb(39, 192, 18);
+    width: 150px;
     border-radius: 5px;
 }
 
 .chat-with-us{
     background-color: white;
     border: 5px solid white;
+    width: 150px;
     border-radius: 5px;
 }
 
 .row2{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .dot{
+    display: flex;
     background-color: white;
     border-radius: 50%;
-    height: 16px;
-    width: 16px;
+    height: 5px;
+    width: 5px;
+}
+
+.nodec-white{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.nodec-blue{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+.btn-scale{
+    height: 15px;
+    margin-right: 10px;
 }

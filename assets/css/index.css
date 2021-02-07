@@ -28,7 +28,8 @@
 .pic {
     grid-area: pic;
     max-width: 50vh;
-    max-height: 40vh;
+    /* changed max height to be 100%.  This is the height within the container, and makes sure the white background always goes to the edges. */
+    max-height: 100%;
     background-color: white;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -100,3 +101,38 @@
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+
+.solution-cards{
+  margin: 25px;
+}
+
+.ex-tap{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.row-img{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.row-4{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.exp-bord{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid grey;
+  width: 90px;
+  height: 90px;
+  border-radius: 25%;
+  padding: 5px;
+}
